@@ -24,7 +24,7 @@ Or by simply running whatever suits you from the following commands (`wget`[^1] 
 
 ```bash
 # doesn't download the script ~ runs the script directly 
-bash <(curl -sL [https://git.io/go-installer](https://raw.githubusercontent.com/LowOrbitSecurity/go-installer/refs/heads/master/go.sh))
+bash <(curl -sL https://raw.githubusercontent.com/LowOrbitSecurity/go-installer/refs/heads/master/go.sh)
 ```
 
 Now, you can go grab a cup of coffee :coffee:, sit back :relieved: and relax while the magic happens! :crystal_ball:
