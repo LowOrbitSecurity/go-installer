@@ -21,14 +21,10 @@ Or by simply running whatever suits you from the following commands (`wget`[^1] 
 
 [^1]: the script depends on wget ([1](https://github.com/kerolloz/go-installer/blob/836e09a79411cda39879a0ce8f69f199f4423562/go.sh#L67-L71), [2](https://github.com/kerolloz/go-installer/blob/836e09a79411cda39879a0ce8f69f199f4423562/go.sh#L132))
 
-```bash
-# downloads then runs the script
-wget https://git.io/go-installer.sh && bash go-installer.sh
-```
 
 ```bash
 # doesn't download the script ~ runs the script directly 
-bash <(curl -sL https://git.io/go-installer)
+bash <(curl -sL [https://git.io/go-installer](https://raw.githubusercontent.com/LowOrbitSecurity/go-installer/refs/heads/master/go.sh))
 ```
 
 Now, you can go grab a cup of coffee :coffee:, sit back :relieved: and relax while the magic happens! :crystal_ball:
